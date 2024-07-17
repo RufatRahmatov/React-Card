@@ -70,3 +70,74 @@ body {
     color: #106cd8;
   }
 }
+
+@media (max-width: 1200px) {
+  .cards {
+    gap: 2rem;
+  }
+
+  .card {
+    width: 280px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    margin: 5%;
+  }
+
+  .cards {
+    gap: 1.5rem;
+  }
+
+  .card {
+    width: 260px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards {
+    gap: 1rem;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 240px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: medium;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    margin: 2%;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 220px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: small;
+  }
+
+  .icon {
+    font-size: 18px;
+  }
+}
